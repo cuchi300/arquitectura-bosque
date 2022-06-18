@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura Bosque</title>
+    <!-- FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <div class="logo">
+                    <h1 class="nombre-sitio">
+                        Arquitectura<span>Bosque</span>
+                    </h1>
+                </div>
+
+                <div class="contacto">
+                    <a class="telefono" href="tel:+541162173874">+54 11-62173874</a>
+                
+                    <nav class="navegacion">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#nosotros">Nosotros</a>
+                        <a href="#modelos">Modelos</a>
+                        <a href="#galeria">Galeria</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="slogan">
+                <h2>Tu casa en el bosque</h2>
+                <p>Construimos la casa de tu sueños</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="contenedor mt-5 nosotros" id="nosotros">
+        <div class="contenido-nosotros">
+            <div class="texto-nosotros">
+                <h2>Sobre Nosotros</h2>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nihil assumenda beatae veritatis. Corrupti est harum odit earum iusto velit, dicta nostrum minus, officiis numquam sapiente, quod corporis inventore impedit?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias adipisci enim ducimus nesciunt. Nobis, neque.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="contenedor mt-5" id="modelos">
+        <h3>Conoce nuestros 3 modelos</h3>
+
+        <div class="modelo basico">
+            <div class="contenido-modelo">
+                <div class="texto-basico">
+                    <h3>Modelo Basico</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi saepe minus omnis, error fugit culpa eveniet necessitatibus.</p>
+                    <a href="#" class="btn">Mas Información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modelo premier">
+            <div class="contenido-modelo">
+                <div class="texto-premier">
+                    <h3>Modelo Premier</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi saepe minus omnis, error fugit culpa eveniet necessitatibus.</p>
+                    <a href="#" class="btn">Mas Información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modelo elite">
+            <div class="contenido-modelo">
+                <div class="texto-elite">
+                    <h3>Modelo Elite</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi saepe minus omnis, error fugit culpa eveniet necessitatibus.</p>
+                    <a href="#" class="btn">Mas Información</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor mt-5" id="galeria">
+        <h2>Galería</h2>
+        <div class="galeria"></div>
+    </section>
+
+    <section class="contenedor mt-5" id="contacto">
+        <h2>Contacto</h2>
+        <div class="contenido-contacto">
+            <form action="" class="formulario">
+                <p>Si estas interesado en alguno de nuestros modelos, por favor rellena el siguiente formulario con tus datos y te contactaremos a la brevedad</p>
+                <fieldset>
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input class="input" type="text" id="nombre" placeholder="Tu Nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input class="input" type="text" id="email" placeholder="Tu E-mail">
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" placeholder="Deja tu mensaje..." class="input"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar">
+
+                </fieldset>
+            </form>
+
+            <div class="ilustracion">
+                <img src="img/male-character.svg" alt="ilustration">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mt-5">
+        <div class="contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <h1 class="nombre-sitio">
+                        Arquitectura<span>Bosque</span>
+                    </h1>
+                </div>
+
+                <div class="contacto">
+                    <a class="telefono" href="tel:+5401162173874">+54 11-62173874</a>
+                
+                    <nav class="navegacion">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#nosotros">Nosotros</a>
+                        <a href="#modelos">Modelos</a>
+                        <a href="#galeria">Galeria</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright">Todos los derechos reservados &copy; 2022. Realizado por <b>Miguel Agustin Baiud</b></p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
